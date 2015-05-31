@@ -2,9 +2,8 @@
 <html>
 	<head>
 		<title>Lazytour</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=uft-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">		
 	</head>
 	<body>
 		<div id="wrapper">
@@ -38,12 +37,19 @@
 					</div>
 					<div class="left_shadow"></div>
 					<div class="absolute"></div>
-					<div class="claim">
-						<button type="button" name="" value="" class="button_claim">Оставить заявку</button>
-					</div>	
+					<button type="button" name="" value="" class="button_claim">Оставить заявку</button>
 				</div>
 			</header>
-			
+			<div id="page_info">	
+					<ul class="breadcrumbs">
+						<li><a href="">Главная</a>&nbsp;/&nbsp;</li>
+						<li><a href="">Все отзывы</a></li>
+					</ul>
+					<h1 class="page_name">Люди говорят</h1>
+				<div class="colored_line"></div>
+				<div class="shadow_line"></div>
+			</div>		
+				
 		</div>					
 	</body>
 </html>

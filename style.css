@@ -149,7 +149,7 @@ header .top_menu {
 }
 
 .recreation p {
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 }
 
 .left_shadow {
@@ -171,13 +171,10 @@ header .top_menu {
 	box-shadow: -4px 7px 5px -4px #abc0c9, 0px 0px 0 #abc0c9;
 }
 
-.claim {
-	position: absolute;
-	left: 763px;
-	top: 17px;
-}
-
 .button_claim {
+	position: absolute;
+  	left: 763px;
+  	top: 17px;
 	/*outline: none;*/
 	border: none;
 	cursor: pointer;
@@ -204,4 +201,74 @@ header .top_menu {
 } 
 
 /*конец блока логтипа LazyTour*/
+
+/*начало блока Люди*/
+#page_info {
+	height: 123px;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+
+/*.people_says {
+	height: 115px;
+	border: 1px solid red;
+	position: relative;
+}
+*/
+.breadcrumbs {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 28px;
+	top: 28px;
+	font: 14px "Myriad Pro", Verdana, sans-serif;
+	color: #999999;
+}
+
+.breadcrumbs li {
+	display: block;
+	float: left;
+	list-style: none;
+}
+
+.breadcrumbs a {
+	font: 14px "Myriad Pro", Verdana, sans-serif;
+	color: #999999;
+	text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+	text-decoration: underline;	
+}
+
+.page_name {
+	margin: 0;
+	position: absolute;
+	left: 28px;
+	top: 49px;
+	color: #333;
+	font: 3.4em "Myriad Pro", Verdana, sans-serif;
+	text-shadow: 0px -1px 0px #aeaeae, 0 1px 2px #aeaeae;
+}
+
+/*конец блока Люди*/
+
+/*цветная линия + тень*/
+.colored_line {
+	position: absolute;
+	bottom: 4px;
+	height: 3px;
+	width: 970px;
+	background: url(img/colored_line.png) no-repeat;
+}
+
+.shadow_line {
+	position: absolute;
+	bottom: 0px;
+	height: 5px;
+	width: 970px;
+	background: url(img/shadow_line.png) no-repeat;
+}
+
+
 
