@@ -49,7 +49,27 @@
 				<div class="colored_line"></div>
 				<div class="shadow_line"></div>
 			</div>		
-				
+			<div id="feedback_form">
+				<form action="" method="POST">
+					<h2>Оставить комментирий</h2>
+					<div class="email">
+						<label for="check1">Электронная почта</label>
+						<input type="text" name="email" id="check1" placeholder="Ваша почта">
+						<label for="check2">Имя</label>
+						<input type="text" name="name" id="check2" placeholder="Ваше имя">
+						<label for="check3">Фото</label>
+						<input type="text" name="photo" id="check3" placeholder="Выберите фото">
+						<button class="select">Выбрать</button>								
+					</div>
+					<div class="question">
+						<label for="check4">Вопрос</label>
+						<textarea name="textarea" placeholder="Ваш вопрос" id="check4"></textarea>
+						<input type="submit" name="submit" value="Отправить">
+					</div>
+				</form>
+			</div>
+								
+							
 		</div>					
 	</body>
 </html>

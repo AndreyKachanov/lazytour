@@ -20,6 +20,7 @@ p, ul {
 	padding: 0;
 	margin: 0;
 }
+
 img {
 	border: none;
 }
@@ -32,13 +33,11 @@ body {
 
 #wrapper {
 	width: 970px;
-	/*height: 1500px;*/
 	margin: 0 auto;
 }
 
 /*шапка*/
 header {
-	/*border: 1px solid green;*/
 	width: 100%;
 }
 
@@ -92,12 +91,10 @@ header .top_menu {
 }
 
 .child_center {
-    /*width: 300px;*/
     margin: auto 0px auto 328px;
 }
 
 .child_right {
-    /*width: 160px;*/
     margin: auto 0px auto 761px;
 }
 
@@ -113,7 +110,6 @@ header .top_menu {
 	box-shadow: inset 0px -2px 2px #e3e3e3;
 }
 /*конец верхнего меню*/
-
 
 /*начало блока логтипа LazyTour*/
 .lazytour {
@@ -175,7 +171,6 @@ header .top_menu {
 	position: absolute;
   	left: 763px;
   	top: 17px;
-	/*outline: none;*/
 	border: none;
 	cursor: pointer;
 	text-transform: uppercase;
@@ -209,12 +204,6 @@ header .top_menu {
 	position: relative;
 }
 
-/*.people_says {
-	height: 115px;
-	border: 1px solid red;
-	position: relative;
-}
-*/
 .breadcrumbs {
 	margin: 0;
 	padding: 0;
@@ -247,7 +236,7 @@ header .top_menu {
 	left: 28px;
 	top: 49px;
 	color: #333;
-	font: 3.4em "Myriad Pro", Verdana, sans-serif;
+	font: 2.8em "Myriad Pro", Verdana, sans-serif;
 	text-shadow: 0px -1px 0px #aeaeae, 0 1px 2px #aeaeae;
 }
 
@@ -270,5 +259,114 @@ header .top_menu {
 	background: url(img/shadow_line.png) no-repeat;
 }
 
+/*Левая часть с формами*/
+#feedback_form {
+	/*border: 1px solid red;*/
+	/*width: 206px;*/
+	float: left;
+	/*min-height: 400px;*/
+}
+
+#feedback_form h2 {
+	max-width: 170px;
+	margin: 10px 0 29px 0px;
+	padding: 0;
+	color: #333333;
+	font: 1.8em "Myriad Pro", Verdana, sans-serif;
+}
+
+#feedback_form {
+	margin-left: 28px;
+}
+
+#feedback_form form input[type="text"] {
+	width: 170px;
+	height: 29px;
+	color: #333333;
+	font: 1.4em "Myriad Pro", Verdana, sans-serif;
+	border-radius: 3px;
+	border: 1px solid #c4c4c4;
+	padding: 7px 10px;
+	box-shadow: inset 0 0 4px #ccc;
+}
+
+#feedback_form label {
+	display: block;
+	color: #333333;
+	font: 1.4em "Myriad Pro", Verdana, sans-serif;
+	text-shadow: 0px 0px 2px #aeaeae;
+	margin: 14px 0;
+}
+
+#feedback_form .select {
+	background: #F1ECEC; /* Old browsers */
+	background: -moz-linear-gradient(top,  #F1ECEC 0%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F1ECEC), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #F1ECEC 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #F1ECEC 0%,#e5e5e5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #F1ECEC 0%,#e5e5e5 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #F1ECEC 0%,#e5e5e5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1ECEC', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	display: block;
+	font: bold 1.3em Arial, sans-serif;
+    letter-spacing: 0.7px;
+    padding: 8px 13px;
+    color: #666666;
+    -webkit-border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	border-radius: 4px; 
+	cursor: pointer;
+	text-transform: uppercase;
+	border: none;
+	-webkit-box-shadow: 0px 2px 4px #666666;
+  	-moz-box-shadow: 0px 2px 4px #666666;
+  	box-shadow: 0px 2px 4px #666666;
+  	margin-top: 14px;
+  	margin-bottom: 18px;
+}
+
+.question textarea {
+	margin-bottom: 21px;
+	height: 174px;
+	width: 171px;
+	color: #333333;
+	font: 1.5em "Myriad Pro", Verdana, sans-serif;
+	border: 1px solid #c4c4c4;
+	border-radius: 3px;
+	box-shadow: inset 0 0 4px #ccc;
+	padding: 7px 10px;
+	resize: none;
+	overflow: auto;
+}
+
+.question input[type="submit"] {
+	display: block;
+	width: 171px;
+	margin: 0 0 0 0;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	background: #F1ECEC; /* Old browsers */
+	background: -moz-linear-gradient(top,  #F1ECEC 0%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F1ECEC), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #F1ECEC 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #F1ECEC 0%,#e5e5e5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #F1ECEC 0%,#e5e5e5 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #F1ECEC 0%,#e5e5e5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1ECEC', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	font: bold 1.3em Arial, sans-serif;
+    letter-spacing: 0.7px;
+    padding: 8px 13px;
+    color: #666666;
+    -webkit-border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	border-radius: 4px; 
+	cursor: pointer;
+	text-transform: uppercase;
+	border: none;
+	-webkit-box-shadow: 0px 2px 4px #666666;
+  	-moz-box-shadow: 0px 2px 4px #666666;
+  	box-shadow: 0px 2px 4px #666666;
+}
 
 
