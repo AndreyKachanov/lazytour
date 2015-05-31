@@ -1,0 +1,207 @@
+.clear {
+	clear: both;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 125%;
+}
+
+body {
+	font-size: 50%;
+}
+
+p, ul {
+	padding: 0;
+	margin: 0;
+}
+img {
+	border: none;
+}
+
+body {
+	padding: 10px 0;
+	margin: 0;
+	background: #fafafa;
+}
+
+#wrapper {
+	width: 970px;
+	/*height: 1500px;*/
+	margin: 0 auto;
+}
+
+/*шапка*/
+header {
+	/*border: 1px solid green;*/
+	width: 100%;
+}
+
+header .top_menu {
+	height: 30px;
+	background: #ebebeb;
+	position: relative;
+	z-index: 0;
+	box-shadow: inset 0 -4px 2px -2px #e3e3e3;
+}
+
+/*начало верхнего меню*/
+.child_left, .child_center, .child_right {
+	font: 1.4em "Myriad Pro", Verdana, sans-serif;
+	color: #999999;
+	position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    height: 59%;
+}
+
+.child_center ul li, .child_right ul li {
+	list-style: none;
+	float: left;
+	padding: 0 12px;
+}
+
+.child_center ul li a, .child_right ul li a {
+	text-decoration: underline;
+	color: #999999;
+}
+
+.child_center ul li a:hover, .child_right ul li a:hover {
+	color: #333333;
+}
+
+#dashed_border a, .child_left #dashed_border {
+	border-bottom: 1px dashed #999999;
+	text-decoration: none;	
+}
+
+.child_right #separator {
+	height: 13px;
+	border-right: 1px solid #999999;
+	padding: 0;
+	margin-top: 4px;
+}
+
+.child_left {
+    width: 200px;
+    margin: auto 0px auto 31px;
+}
+
+.child_center {
+    /*width: 300px;*/
+    margin: auto 0px auto 328px;
+}
+
+.child_right {
+    /*width: 160px;*/
+    margin: auto 0px auto 761px;
+}
+
+.protrusion {
+	width: 189px;
+	height: 13px;
+	background: #ebebeb;
+	position: absolute;
+	right: 27px;
+	top: 26px;
+	z-index: 1;
+	border-radius: 0 0 5px 5px;
+	box-shadow: inset 0px -2px 2px #e3e3e3;
+}
+/*конец верхнего меню*/
+
+
+/*начало блока логтипа LazyTour*/
+.lazytour {
+	height: 68px;
+	box-shadow:  0 6px 4px -4px #e3e3e3;
+	position: relative;
+}
+
+.logo {
+	margin: 0;
+	position: absolute;
+	top: 20px;
+	left: 28px;
+
+}
+
+.logo a {
+  width: 145px;
+  height: 29px;
+  outline: none;
+  display: block;
+  text-indent: -9999px;
+  background: url(img/logo.png) no-repeat;
+}
+
+.recreation {
+	position: absolute;
+	top: 18px;
+	left: 230px;
+	text-transform: uppercase;
+	font: 1.3em "Myriad Pro", Verdana, sans-serif;
+	color: #999999;
+}
+
+.recreation p {
+	letter-spacing: 3px;
+}
+
+.left_shadow {
+	height: 52px;
+	width: 100px;
+	position: absolute;
+	left: 448px;
+	top: 10px;
+	background: url(img/left_shadow.png) no-repeat;
+}
+
+.absolute {
+	width: 228px;
+	height: 37px;
+	position: absolute;
+	left: 448px;
+	top: 17px;
+	background: url(img/absolute.png) no-repeat;
+	box-shadow: -4px 7px 5px -4px #abc0c9, 0px 0px 0 #abc0c9;
+}
+
+.claim {
+	position: absolute;
+	left: 763px;
+	top: 17px;
+}
+
+.button_claim {
+	/*outline: none;*/
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	background: #ed58a2; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ed58a2 0%, #e7348c 40%, #dd3186 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed58a2), color-stop(40%,#e7348c), color-stop(100%,#dd3186)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ed58a2 0%,#e7348c 40%,#dd3186 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ed58a2 0%,#e7348c 40%,#dd3186 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ed58a2 0%,#e7348c 40%,#dd3186 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ed58a2 0%,#e7348c 40%,#dd3186 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed58a2', endColorstr='#dd3186',GradientType=0 ); /* IE6-9 */
+	padding: 8px 15px; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	border-radius: 4px; 
+	-webkit-box-shadow: 0px 2px 4px #666666;
+  	-moz-box-shadow: 0px 2px 4px #666666;
+  	box-shadow: 0px 2px 4px #666666;
+	text-shadow: #b15d87 0 -1px 0; 
+	color: #fff;
+	font: bold 1.3em Arial, sans-serif;
+	letter-spacing: 0.7px; 	
+} 
+
+/*конец блока логтипа LazyTour*/
+
