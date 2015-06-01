@@ -162,7 +162,7 @@
 					</form>
 				</div>				
 				<div class="colored_line clear"></div>
-				<footer>
+				<div id="leave_application">
 					<div class="footer_left">
 						<p> &copy; 2013 <a href=""> Lazytour</a></p>
 						<p class="copyright">Самый лучший способ найти тур или попутчика. А кроме этого обеспечить туристическому агенству, стабильный и огромный поток клиентов.</p>
@@ -185,7 +185,7 @@
 						</ul>
 					</div>
 					<div class="clear"></div>
-				</footer>
+				</div>
 				<div id="carousel">
 					<h1>Куда едем?</h1>
 				</div>
@@ -220,6 +220,22 @@
 					<h1>Мы ищем — вы отдыхаете!</h1>
 					<p>Понырять с аквалангом на Мальдивах, потанцевать на самбадроме в Рио или поехать на выходные в Париж с любимым человеком, Вы можете быть уверены, что мы Вам предложим самое лучшее, что есть на рынке.</p>
 				</div>
+			<footer>
+				<ul>
+					<li><span>&copy; 2013 </span><a href=""> Lazytour</a></li>
+					<li><a href="">О компании</a></li>
+					<li><a href="">Как это работает</a></li>
+					<li><a href="">Отзывы</a></li>
+					<li><a href="">Контакты</a></li>
+					<li>
+						<a href="">
+							<img src="img/tur_agenstvam.png"> 
+							<span>Тур. агенствам</span>
+						</a>
+					</li>
+				</ul>
+				<div class="clear"></div>	
+			</footer>	
 		</div>	
 															
 	<style>

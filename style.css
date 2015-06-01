@@ -502,14 +502,14 @@ header .top_menu {
 }
 
 /*подвал*/
-footer {
+#leave_application {
 	/*border: 1px solid black;*/
 	/*font: 1.5em "Myriad Pro", Verdana, sans-serif;*/
 	background: #ffffff;
 	padding-top: 70px;	
 }
 
-footer a {
+#leave_application a {
 	text-decoration: underline;
 	color: #27a9e1;
 	/*font: 1.5em "Myriad Pro", Verdana, sans-serif;*/
@@ -593,7 +593,9 @@ footer a {
 }
 
 #about_company {
-	border: 1px solid red;
+	width: 710px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
 	padding-bottom: 62px;
 }
 
@@ -619,6 +621,12 @@ footer a {
 		list-style: none inside;
 		margin: 20px 0 20px 32px;
 	}
+
+#about_company ol {
+	/*margin-left: 0;*/
+	padding-left: 0;
+}	
+
 #about_company ul>li:before{
 		content: "\2043";
 		margin-left: -1ex;
@@ -631,4 +639,59 @@ footer a {
 
 p.above_ul {
 	margin-top: 30px;
-}	
+}
+
+/*подвал*/
+footer {
+	background: #fff;
+	padding: 40px 0px 20px 21px;
+
+}
+
+
+footer a {
+  text-decoration: underline;
+  color: #27a9e1;	
+  font: 1.5em "Myriad Pro", Verdana, sans-serif;	
+}
+
+footer ul li {
+	float: left;
+	display: block;
+	list-style: none;
+}
+
+footer ul li:last-child {
+	margin-right: 0;
+	margin-left: 60px;
+	position: relative;
+	top: -9px
+}
+
+footer ul li:last-child a {
+	display: table;
+}
+
+footer ul li:last-child img {
+
+}
+
+footer ul li:last-child span {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 11px;
+}
+
+footer ul li:first-child {
+	margin-right: 80px;
+	
+}
+
+footer ul li:first-child span {
+	font: 1.5em "Myriad Pro", Verdana, sans-serif;
+	color: #333;	
+} 
+
+footer ul li {
+	margin-right: 31px;
+}
