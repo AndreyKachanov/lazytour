@@ -108,11 +108,32 @@
 							<input type="submit" name="submit" value="Отправить">
 						</div>
 					</form>
-				</div>
-				
+				</div>				
 				<div class="colored_line clear"></div>
-				<div class="shadow_line"></div>
-		
+				<footer>
+					<div class="footer_left">
+						<p> &copy; 2013 <a href=""> Lazytour</a></p>
+						<p class="copyright">Самый лучший способ найти тур или попутчика. А кроме этого обеспечить туристическому агенству, стабильный и огромный поток клиентов.</p>
+							<a href="">
+								<img src="img/tur_agenstvam.png">
+								<p class="tur_atenstvam">Тур. агенствам</p>
+							</a>
+					</div>
+					<div class="footer_right">
+						<p>Отдых еще не начался, а вы уже устали от поиска его места?</p>
+						<p>Оставьте заявку и тур. агентства сами будут присылать вам свои предложения.</p>
+						<button type="button" name="" value="" class="">Оставить заявку</button>
+					</div>
+					<div class="footer_center">
+						<ul>
+							<li><a href="">О компании</a></li>
+							<li><a href="">Как это работает</a></li>
+							<li><a href="">Отзывы</a></li>
+							<li><a href="">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</footer>
 		</div>	
 															
 	<style>
