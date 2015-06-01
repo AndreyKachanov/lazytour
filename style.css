@@ -244,16 +244,16 @@ header .top_menu {
 
 /*цветная линия + тень*/
 .colored_line {
-	position: absolute;
-	bottom: 4px;
+	/*position: absolute;
+	bottom: 4px;*/
 	height: 3px;
 	width: 970px;
 	background: url(img/colored_line.png) no-repeat;
 }
 
 .shadow_line {
-	position: absolute;
-	bottom: 0px;
+	/*position: absolute;
+	bottom: 0px;*/
 	height: 5px;
 	width: 970px;
 	background: url(img/shadow_line.png) no-repeat;
@@ -262,25 +262,28 @@ header .top_menu {
 /*Левая часть с формами*/
 #feedback_form {
 	/*border: 1px solid red;*/
-	/*width: 206px;*/
-	float: left;
-	/*min-height: 400px;*/
+	width: 173px;
+	margin: 20px 0px 30px 26px;
+}
+
+#comments {
+	width: 715px;
+	float: right;
+	background: #ccc;
+	border-radius: 6px;
+	margin: 20px 30px 30px 0px;
 }
 
 #feedback_form h2 {
-	max-width: 170px;
-	margin: 10px 0 29px 0px;
+	max-width: 171px;
+	margin: 0px 0 29px 0px;
 	padding: 0;
 	color: #333333;
 	font: 1.8em "Myriad Pro", Verdana, sans-serif;
 }
 
-#feedback_form {
-	margin-left: 28px;
-}
-
 #feedback_form form input[type="text"] {
-	width: 170px;
+	width: 171px;
 	height: 29px;
 	color: #333333;
 	font: 1.4em "Myriad Pro", Verdana, sans-serif;
@@ -368,5 +371,4 @@ header .top_menu {
   	-moz-box-shadow: 0px 2px 4px #666666;
   	box-shadow: 0px 2px 4px #666666;
 }
-
 
