@@ -73,7 +73,7 @@ header .top_menu {
 	color: #333333;
 }
 
-#dashed_border a, .child_left #dashed_border {
+#wrapper .dashed_border a, .child_left .dashed_border {
 	border-bottom: 1px dashed #999999;
 	text-decoration: none;	
 }

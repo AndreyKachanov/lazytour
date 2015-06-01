@@ -3,14 +3,24 @@
 	<head>
 		<title>Lazytour</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">	
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<style type="text/css">
+			.sticky {
+			  position: fixed;
+			  z-index: 101;
+			}
+			.stop {
+			  position: relative;
+			  z-index: 101;
+			}
+		</style>	
 	</head>
 	<body>
 		<div id="wrapper">
 			<header>
 				<div class="top_menu">
 					<div class="child_left">
-						Ваш город: <span id="dashed_border">Москва</span>
+						Ваш город: <span class="dashed_border">Москва</span>
 					</div>
 					<div class="child_center">
 						<ul>
@@ -21,7 +31,7 @@
 					</div>
 					<div class="child_right">
 						<ul>
-							<li id="dashed_border"><a href="">Вход</a></li>
+							<li class="dashed_border"><a href="">Вход</a></li>
 							<li id="separator"></li>
 							<li><a href="">Регистрация</a></li>
 						</ul>
@@ -57,7 +67,7 @@
 										<div class="date">20.01.2014<span></span></div>							
 									</div>
 									<div class="author_block">
-										<img src="img/avatars/1.jpg">
+										<img src="img/avatars/1.jpg" alt="">
 										<p class="name">Анастасия Константинопольская</p>
 										<p class="profession">Домохозяйка</p>								
 									</div>
@@ -70,7 +80,7 @@
 										<div class="date">20.01.2014<span></span></div>							
 									</div>
 									<div class="author_block">
-										<img src="img/avatars/1.jpg">
+										<img src="img/avatars/1.jpg" alt="">
 										<p class="name">Анастасия Константинопольская</p>
 										<p class="profession">Домохозяйка</p>								
 									</div>
@@ -83,7 +93,7 @@
 										<div class="date">20.01.2014<span></span></div>							
 									</div>
 									<div class="author_block">
-										<img src="img/avatars/1.jpg">
+										<img src="img/avatars/1.jpg" alt="">
 										<p class="name">Анастасия Константинопольская</p>
 										<p class="profession">Домохозяйка</p>								
 									</div>
@@ -96,7 +106,7 @@
 										<div class="date">20.01.2014<span></span></div>							
 									</div>
 									<div class="author_block">
-										<img src="img/avatars/1.jpg">
+										<img src="img/avatars/1.jpg" alt="">
 										<p class="name">Анастасия Константинопольская</p>
 										<p class="profession">Домохозяйка</p>								
 									</div>
@@ -109,7 +119,7 @@
 										<div class="date">20.01.2014<span></span></div>							
 									</div>
 									<div class="author_block">
-										<img src="img/avatars/1.jpg">
+										<img src="img/avatars/1.jpg" alt="">
 										<p class="name">Анастасия Константинопольская</p>
 										<p class="profession">Домохозяйка</p>								
 									</div>
@@ -122,7 +132,7 @@
 										<div class="date">20.01.2014<span></span></div>							
 									</div>
 									<div class="author_block">
-										<img src="img/avatars/1.jpg">
+										<img src="img/avatars/1.jpg" alt="">
 										<p class="name">Анастасия Константинопольская</p>
 										<p class="profession">Домохозяйка</p>								
 									</div>
@@ -143,7 +153,7 @@
 							</div>	
 				</div>		
 				<div id="feedback_form">
-					<form action="" method="POST">
+					<form action="#" method="POST" name="">
 						<h2>Оставить комментирий</h2>
 						<div class="email">
 							<label for="check1">Электронная почта</label>
@@ -167,7 +177,7 @@
 						<p> &copy; 2013 <a href=""> Lazytour</a></p>
 						<p class="copyright">Самый лучший способ найти тур или попутчика. А кроме этого обеспечить туристическому агенству, стабильный и огромный поток клиентов.</p>
 							<a href="">
-								<img src="img/tur_agenstvam.png">
+								<img src="img/tur_agenstvam.png" alt="">
 								<p class="tur_atenstvam">Тур. агенствам</p>
 							</a>
 					</div>
@@ -229,25 +239,14 @@
 					<li><a href="">Контакты</a></li>
 					<li>
 						<a href="">
-							<img src="img/tur_agenstvam.png"> 
+							<img src="img/tur_agenstvam.png" alt=""> 
 							<span>Тур. агенствам</span>
 						</a>
 					</li>
 				</ul>
 				<div class="clear"></div>	
 			</footer>	
-		</div>	
-															
-	<style>
-.sticky {
-  position: fixed;
-  z-index: 101;
-}
-.stop {
-  position: relative;
-  z-index: 101;
-}
-</style>
+		</div>															
 <script>
 (function(){
 var a = document.querySelector('#feedback_form'), b = null, P = 0;
