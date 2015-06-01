@@ -50,7 +50,46 @@
 			<div class="colored_line"></div>
 			<div class="shadow_line"></div>
 
-						
+				<div id="comments">
+							<ul>
+								<li class="container">
+									<div class="date_block">			
+										<div class="date">20.01.2014<span></span></div>							
+									</div>
+									<div class="author_block">
+										<img src="img/avatars/1.jpg">
+										<p class="name">Анастасия Константинопольская</p>
+										<p class="profession">Домохозяйка</p>								
+									</div>
+									<div class="text">
+											Отсюда естественно следует, что личность топ менеджера все еще интересна для многих. Тем не менее, стратегическое планирование программирует направленный маркетинг, полагаясь на инсайдерскую информацию. Продукт создает бюджет на размещение, осознав маркетинг как часть производства. Искусство медиапланирования последовательно позиционирует рекламный блок, опираясь на опыт западных коллег. Подробнее
+									</div>	
+								</li>
+								<li class="container">
+									<div class="date_block">			
+										<div class="date">20.01.2014<span></span></div>							
+									</div>
+									<div class="author_block">
+										<img src="img/avatars/1.jpg">
+										<p class="name">Анастасия Константинопольская</p>
+										<p class="profession">Домохозяйка</p>								
+									</div>
+									<div class="text">
+											Отсюда естественно следует, что личность топ менеджера все еще интересна для многих. Тем не менее, стратегическое планирование программирует направленный маркетинг, полагаясь на инсайдерскую информацию. Продукт создает бюджет на размещение, осознав маркетинг как часть производства. Искусство медиапланирования последовательно позиционирует рекламный блок, опираясь на опыт западных коллег. Подробнее
+									</div>	
+								</li>								
+							</ul>
+							<div class="pagination">
+								<ul>
+								<li><a href="">1</a></li>
+								<li><a href="">2</a></li>
+								<li><a href="">3</a></li>
+								<li><a href="">4</a></li>
+								<li><a href="">5</a></li>
+								<li><a href="">6</a></li>
+							</ul>	
+							</div>	
+				</div>		
 				<div id="feedback_form">
 					<form action="" method="POST">
 						<h2>Оставить комментирий</h2>
@@ -73,7 +112,8 @@
 				
 				<div class="colored_line clear"></div>
 				<div class="shadow_line"></div>
-			</div>	
+		
+		</div>	
 															
 	<style>
 .sticky {
