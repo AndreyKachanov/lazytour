@@ -436,13 +436,17 @@ header .top_menu {
 	color: #696969;
 }
 
-.text {
+.container article {
 	margin: 15px 0 0 0;
-	border: 1px solid #f1f1f1;
-	padding: 16px;
+	/*border: 1px solid #f1f1f1;*/
+	padding: 16px 16px 0 16px;
 	color: #333333;
 	font: 1.5em "Myriad Pro", Verdana, sans-serif;
 	border-radius: 3px;
+}
+
+.acticle_border {
+	border: 1px solid #f1f1f1;	
 }
 
 /*постраничная навигация*/
@@ -694,4 +698,15 @@ footer ul li:first-child span {
 
 footer ul li {
 	margin-right: 31px;
+}
+
+/*фиксация блока формы обр. связи*/
+.sticky {
+  position: fixed;
+  z-index: 101;
+}
+
+.stop {
+  position: relative;
+  z-index: 101;
 }

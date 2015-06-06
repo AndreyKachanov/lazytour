@@ -3,17 +3,7 @@
 	<head>
 		<title>Lazytour</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<style type="text/css">
-			.sticky {
-			  position: fixed;
-			  z-index: 101;
-			}
-			.stop {
-			  position: relative;
-			  z-index: 101;
-			}
-		</style>	
+		<link rel="stylesheet" type="text/css" href="style.css">	
 	</head>
 	<body>
 		<div id="wrapper">
@@ -71,75 +61,12 @@
 										<p class="name">Анастасия Константинопольская</p>
 										<p class="profession">Домохозяйка</p>								
 									</div>
-									<div class="text">
-											Отсюда естественно следует, что личность топ менеджера все еще интересна для многих. Тем не менее, стратегическое планирование программирует направленный маркетинг, полагаясь на инсайдерскую информацию. Продукт создает бюджет на размещение, осознав маркетинг как часть производства. Искусство медиапланирования последовательно позиционирует рекламный блок, опираясь на опыт западных коллег. Подробнее
-									</div>	
-								</li>
-																<li class="container">
-									<div class="date_block">			
-										<div class="date">20.01.2014<span></span></div>							
-									</div>
-									<div class="author_block">
-										<img src="img/avatars/1.jpg" alt="">
-										<p class="name">Анастасия Константинопольская</p>
-										<p class="profession">Домохозяйка</p>								
-									</div>
-									<div class="text">
-											Отсюда естественно следует, что личность топ менеджера все еще интересна для многих. Тем не менее, стратегическое планирование программирует направленный маркетинг, полагаясь на инсайдерскую информацию. Продукт создает бюджет на размещение, осознав маркетинг как часть производства. Искусство медиапланирования последовательно позиционирует рекламный блок, опираясь на опыт западных коллег. Подробнее
-									</div>	
-								</li>
-																<li class="container">
-									<div class="date_block">			
-										<div class="date">20.01.2014<span></span></div>							
-									</div>
-									<div class="author_block">
-										<img src="img/avatars/1.jpg" alt="">
-										<p class="name">Анастасия Константинопольская</p>
-										<p class="profession">Домохозяйка</p>								
-									</div>
-									<div class="text">
-											Отсюда естественно следует, что личность топ менеджера все еще интересна для многих. Тем не менее, стратегическое планирование программирует направленный маркетинг, полагаясь на инсайдерскую информацию. Продукт создает бюджет на размещение, осознав маркетинг как часть производства. Искусство медиапланирования последовательно позиционирует рекламный блок, опираясь на опыт западных коллег. Подробнее
-									</div>	
-								</li>
-								<li class="container">
-									<div class="date_block">			
-										<div class="date">20.01.2014<span></span></div>							
-									</div>
-									<div class="author_block">
-										<img src="img/avatars/1.jpg" alt="">
-										<p class="name">Анастасия Константинопольская</p>
-										<p class="profession">Домохозяйка</p>								
-									</div>
-									<div class="text">
-											Отсюда естественно следует, что личность топ менеджера все еще интересна для многих. Тем не менее, стратегическое планирование программирует направленный маркетинг, полагаясь на инсайдерскую информацию. Продукт создает бюджет на размещение, осознав маркетинг как часть производства. Искусство медиапланирования последовательно позиционирует рекламный блок, опираясь на опыт западных коллег. Подробнее
-									</div>	
-								</li>
-								<li class="container">
-									<div class="date_block">			
-										<div class="date">20.01.2014<span></span></div>							
-									</div>
-									<div class="author_block">
-										<img src="img/avatars/1.jpg" alt="">
-										<p class="name">Анастасия Константинопольская</p>
-										<p class="profession">Домохозяйка</p>								
-									</div>
-									<div class="text">
-											Отсюда естественно следует, что личность топ менеджера все еще интересна для многих. Тем не менее, стратегическое планирование программирует направленный маркетинг, полагаясь на инсайдерскую информацию. Продукт создает бюджет на размещение, осознав маркетинг как часть производства. Искусство медиапланирования последовательно позиционирует рекламный блок, опираясь на опыт западных коллег. Подробнее
-									</div>	
-								</li>
-								<li class="container">
-									<div class="date_block">			
-										<div class="date">20.01.2014<span></span></div>							
-									</div>
-									<div class="author_block">
-										<img src="img/avatars/1.jpg" alt="">
-										<p class="name">Анастасия Константинопольская</p>
-										<p class="profession">Домохозяйка</p>								
-									</div>
-									<div class="text">
-											Отсюда естественно следует, что личность топ менеджера все еще интересна для многих. Тем не менее, стратегическое планирование программирует направленный маркетинг, полагаясь на инсайдерскую информацию. Продукт создает бюджет на размещение, осознав маркетинг как часть производства. Искусство медиапланирования последовательно позиционирует рекламный блок, опираясь на опыт западных коллег. Подробнее
-									</div>	
-								</li>								
+									<!-- <div class="acticle_border"> -->
+									<article>
+											Отсюда естественно следует, что личность топ менеджера все еще интересна для многих. Тем не менее, стратегическое планирование программирует направленный маркетинг, полагаясь на инсайдерскую информацию. Продукт создает бюджет на размещение, осознав маркетинг как часть производства. Искусство медиапланирования последовательно позиционирует рекламный блок, опираясь на опыт западных коллег.
+									</article>
+									<!-- </div>	 -->
+								</li>																								
 							</ul>
 							<div class="pagination">
 								<ul>
@@ -247,41 +174,15 @@
 				<div class="clear"></div>	
 			</footer>	
 		</div>															
-<script>
-(function(){
-var a = document.querySelector('#feedback_form'), b = null, P = 0;
-window.addEventListener('scroll', Ascroll, false);
-document.body.addEventListener('scroll', Ascroll, false);
-function Ascroll() {
-  if (b == null) {
-    var Sa = getComputedStyle(a, ''), s = '';
-    for (var i = 0; i < Sa.length; i++) {
-      if (Sa[i].indexOf('box-sizing') == 0 || Sa[i].indexOf('overflow') == 0 || Sa[i].indexOf('width') == 0 || Sa[i].indexOf('padding') == 0 || Sa[i].indexOf('border') == 0 || Sa[i].indexOf('outline') == 0 || Sa[i].indexOf('box-shadow') == 0 || Sa[i].indexOf('background') == 0) {
-        s += Sa[i] + ': ' +Sa.getPropertyValue(Sa[i]) + '; '
-      }
-    }
-    a.innerHTML = '<div style="'+s+'">'+a.innerHTML+'</div>';
-    b = a.children[0];
-    a.style.height = b.getBoundingClientRect().height + 'px';
-    a.style.padding = '0';
-    a.style.border = '0';
-  }
-  var Ra = a.getBoundingClientRect(),
-      R = Math.round(Ra.top + b.getBoundingClientRect().height - document.querySelector('#comments').getBoundingClientRect().bottom);  // селектор блока, при достижении нижнего края которого нужно открепить прилипающий элемент
-  if ((Ra.top - P) <= 0) {
-    if ((Ra.top - P) <= R) {
-      b.className = 'stop';
-      b.style.top = - R +'px';
-    } else {
-      b.className = 'sticky';
-      b.style.top = P + 'px';
-    }
-  } else {
-    b.className = '';
-    b.style.top = '';
-  }
-}
-})()
-</script>						
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/fixed_block.js"></script>
+	<script type="text/javascript" src="js/readmore.js"></script>
+	<script>
+		$('article').readmore({
+			maxHeight: 113,
+			moreLink: '<a href="#">Подробнее</a>',
+			lessLink: '<a href="#">Скрыть</a>'
+		});
+	</script>						
 	</body>
 </html>
