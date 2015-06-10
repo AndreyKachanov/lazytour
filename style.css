@@ -438,8 +438,8 @@ header .top_menu {
 
 .container article {
 	margin: 15px 0 0 0;
-	/*border: 1px solid #f1f1f1;*/
-	padding: 16px 16px 0 16px;
+	border: 1px solid #f1f1f1;
+	padding: 15px;
 	color: #333333;
 	font: 1.5em "Myriad Pro", Verdana, sans-serif;
 	border-radius: 3px;
@@ -709,4 +709,17 @@ footer ul li {
 .stop {
   position: relative;
   z-index: 101;
+}
+/*скрыть комменты*/
+
+a.morelink {
+	text-decoration:none;
+	outline: none;
+	color: #27a9e1;
+	text-decoration: underline;
+}
+
+.morecontent span {
+	display: none;
+
 }
