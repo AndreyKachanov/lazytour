@@ -721,5 +721,58 @@ a.morelink {
 
 .morecontent span {
 	display: none;
+}
 
+/*Кнопка Выбрать */
+
+
+.customfile-container label:first-child {
+  width: 100px;
+  display: block;
+  margin-bottom: .5em;
+  font: bold 18px Arial, sans-serif;
+  color: #333;
+}
+
+.customfile-wrap {
+  position: relative;
+  padding: 0;
+  margin-bottom: .5em;
+}
+
+.customfile-filename,
+.customfile-upload { 
+  margin: 0;
+  padding: 0;
+}
+
+.customfile-upload {
+	background: #F1ECEC; /* Old browsers */
+	background: -moz-linear-gradient(top,  #F1ECEC 0%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F1ECEC), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #F1ECEC 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #F1ECEC 0%,#e5e5e5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #F1ECEC 0%,#e5e5e5 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #F1ECEC 0%,#e5e5e5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1ECEC', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	display: inline-block;
+	font: bold 1.3em Arial, sans-serif;
+    letter-spacing: 0.7px;
+    padding: 8px 13px;
+    color: #666666;
+    -webkit-border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	border-radius: 4px; 
+	cursor: pointer;
+	text-transform: uppercase;
+	border: none;
+	-webkit-box-shadow: 0px 2px 4px #666666;
+  	-moz-box-shadow: 0px 2px 4px #666666;
+  	box-shadow: 0px 2px 4px #666666;
+  	margin-top: 14px;
+  	margin-bottom: 18px;
+}
+
+.customfile-upload::-moz-focus-inner { /* Fix firefox padding */
+  padding: 0; border: 0 
 }

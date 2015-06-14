@@ -126,17 +126,21 @@
 							</div>	
 				</div>		
 				<div id="feedback_form">
+
 					<form action="#" method="POST" name="">
+
 						<h2>Оставить комментирий</h2>
 						<div class="email">
 							<label for="check1">Электронная почта</label>
 							<input type="text" name="email" id="check1" placeholder="Ваша почта">
 							<label for="check2">Имя</label>
-							<input type="text" name="name" id="check2" placeholder="Ваше имя">
-							<label for="check3">Фото</label>
-							<input type="text" name="photo" id="check3" placeholder="Выберите фото">
-							<button class="select">Выбрать</button>								
+							<input type="text" name="name" id="check2" placeholder="Ваше имя">														
+							<div class="customfile-container">
+							<label for="check3">Фото </label>
+							<input type="file" id="file" name="myfiles[]">
 						</div>
+						</div>
+						
 						<div class="question">
 							<label for="check4">Вопрос</label>
 							<textarea name="textarea" placeholder="Ваш вопрос" id="check4"></textarea>
@@ -208,7 +212,7 @@
 					<li><span>&copy; 2013 </span><a href=""> Lazytour</a></li>
 					<li><a href="">О компании</a></li>
 					<li><a href="">Как это работает</a></li>
-					<li><a href="">Отзывы</a></li>
+					<li><a href="">Отзывы</a></li> 
 					<li><a href="">Контакты</a></li>
 					<li>
 						<a href="">
@@ -221,7 +225,9 @@
 			</footer>	
 		</div>															
 
-	<script type="text/javascript" src="js/fixed_block.js"></script>					
+	<!--<script type="text/javascript" src="js/fixed_block.js"></script>-->
+	<script type="text/javascript" src="js/select_photo.js"></script>					
 	<script type="text/javascript" src="js/hide_comments.js"></script>
+
 	</body>
 </html>
