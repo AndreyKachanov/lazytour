@@ -261,9 +261,9 @@ header .top_menu {
 
 /*Левая часть с формами*/
 #feedback_form {
-	/*border: 1px solid red;*/
 	width: 173px;
 	margin: 20px 0px 30px 26px;
+	float: left;
 }
 
 #feedback_form h2 {
@@ -320,6 +320,22 @@ header .top_menu {
   	margin-bottom: 18px;
 }
 
+/*.aside {
+	float: left;
+}*/
+
+.stickit {
+	margin-right: 715px;
+	position: fixed;
+	top: 0;
+}
+
+.stickit-end {
+	bottom: 0px;
+	position: absolute;
+	left: 0;
+}
+
 .question textarea {
 	margin-bottom: 21px;
 	height: 174px;
@@ -365,17 +381,17 @@ header .top_menu {
 }
 
 /*блок с комментариями*/
-#comments {
+.content {
 	width: 715px;
 	float: right;
 	background: #fff;
 	border-radius: 6px;
-	margin: 20px 30px 30px 0px;
+	margin: 0px 30px 30px 0px;
 	box-shadow: -2px 7px 5px -5px #c8c6c2;
   	padding: 15px 16px 30px 16px;
 }
 
-.container {
+.container_li {
 	/*border: 1px solid black;*/
 	display: block;
 	margin-bottom: 39px;
@@ -436,7 +452,7 @@ header .top_menu {
 	color: #696969;
 }
 
-.container article {
+.container_li article {
 	margin: 15px 0 0 0;
 	border: 1px solid #f1f1f1;
 	padding: 15px;
@@ -705,7 +721,6 @@ footer ul li {
   position: fixed;
   z-index: 101;
 }
-
 .stop {
   position: relative;
   z-index: 101;
@@ -775,4 +790,24 @@ a.morelink {
 
 .customfile-upload::-moz-focus-inner { /* Fix firefox padding */
   padding: 0; border: 0 
+}
+
+
+/*stick div*/
+
+.container {
+	margin: 0 auto;
+	width: 970px;
+}
+
+.row {
+	position: relative;
+}
+
+.row:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
 }
