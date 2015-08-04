@@ -4,6 +4,7 @@
 		<title>Lazytour</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="Stylesheet" type="text/css" href="css/smoothDivScroll.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>			
 	</head>
 	<body>
@@ -11,7 +12,7 @@
 			<header>
 				<div class="top_menu">
 					<div class="child_left">
-						Ваш город: <span class="dashed_border">Москва</span>
+						Ваш город: <span class="dashed_border city">Москва</span>
 					</div>
 					<div class="child_center">
 						<ul>
@@ -55,6 +56,34 @@
 					<div  class="content">
 								<ul>
 									<li class="container_li">
+										<div class="date_block">			
+											<div class="date">20.01.2014<span></span></div>							
+										</div>
+										<div class="author_block">
+											<img src="img/avatars/1.jpg" alt="">
+											<p class="name">Анастасия Константинопольская</p>
+											<p class="profession">Домохозяйка</p>								
+										</div>
+										<article class="comment more">
+												Отсюда естественно следует, что личность топ менеджера все еще интересна для многих. Тем не менее, стратегическое планирование программирует направленный маркетинг, полагаясь на инсайдерскую информацию. Продукт создает бюджет на размещение, осознав маркетинг как часть производства. Искусство медиапланирования последовательно позиционирует рекламный блок, опираясь на опыт западных коллег.
+												Отсюда естественно следует, что личность топ менеджера все еще интересна для многих. Тем не менее, стратегическое планирование программирует направленный маркетинг, полагаясь на инсайдерскую информацию. Продукт создает бюджет на размещение, осознав маркетинг как часть производства. Искусство медиапланирования последовательно позиционирует рекламный блок, опираясь на опыт западных коллег. 
+										</article>
+									</li>
+																		<li class="container_li">
+										<div class="date_block">			
+											<div class="date">20.01.2014<span></span></div>							
+										</div>
+										<div class="author_block">
+											<img src="img/avatars/1.jpg" alt="">
+											<p class="name">Анастасия Константинопольская</p>
+											<p class="profession">Домохозяйка</p>								
+										</div>
+										<article class="comment more">
+												Отсюда естественно следует, что личность топ менеджера все еще интересна для многих. Тем не менее, стратегическое планирование программирует направленный маркетинг, полагаясь на инсайдерскую информацию. Продукт создает бюджет на размещение, осознав маркетинг как часть производства. Искусство медиапланирования последовательно позиционирует рекламный блок, опираясь на опыт западных коллег.
+												Отсюда естественно следует, что личность топ менеджера все еще интересна для многих. Тем не менее, стратегическое планирование программирует направленный маркетинг, полагаясь на инсайдерскую информацию. Продукт создает бюджет на размещение, осознав маркетинг как часть производства. Искусство медиапланирования последовательно позиционирует рекламный блок, опираясь на опыт западных коллег. 
+										</article>
+									</li>
+																		<li class="container_li">
 										<div class="date_block">			
 											<div class="date">20.01.2014<span></span></div>							
 										</div>
@@ -179,6 +208,48 @@
 				</div>
 				<div id="carousel">
 					<h1>Куда едем?</h1>
+						<div id="makeMeScrollable">
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Abkhazia.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Afghanistan.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Aland.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Albania.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Algeria.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/American-Samoa.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Andorra.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Angola.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Anguilla.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Antarctica.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Antigua-and-Barbuda.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Argentina.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Armenia.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Aruba.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Australia.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Austria.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Azerbaijan.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Bahamas.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Bahrain.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Bangladesh.png" alt="Абхазия" /></a>														
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Abkhazia.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Afghanistan.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Aland.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Albania.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Algeria.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/American-Samoa.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Andorra.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Angola.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Anguilla.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Antarctica.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Antigua-and-Barbuda.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Argentina.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Armenia.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Aruba.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Australia.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Austria.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Azerbaijan.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Bahamas.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Bahrain.png" alt="Абхазия" /></a>
+							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Bangladesh.png" alt="Абхазия" /></a>	
+						</div>
 				</div>
 				<div id="about_company">
 					<h1>Мы ищем — вы отдыхаете!</h1>
@@ -227,7 +298,33 @@
 				</ul>
 				<div class="clear"></div>	
 			</footer>	
-		</div>															
+		</div>
+	<script src="js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+	
+	<!-- Latest version (3.1.4) of jQuery Mouse Wheel by Brandon Aaron
+	     You will find it here: https://github.com/brandonaaron/jquery-mousewheel -->
+	<script src="js/jquery.mousewheel.min.js" type="text/javascript"></script>
+
+	<!-- jQuery Kinectic (1.8.2) used for touch scrolling -->
+	<!-- https://github.com/davetayls/jquery.kinetic/ -->
+	<script src="js/jquery.kinetic.min.js" type="text/javascript"></script>
+
+	<!-- Smooth Div Scroll 1.3 minified-->
+	<script src="js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
+
+	<!-- If you want to look at the uncompressed version you find it at
+	     js/jquery.smoothDivScroll-1.3.js -->
+
+	<!-- Plugin initialization -->
+	<script type="text/javascript">
+		// Initialize the plugin with no custom options
+		$(document).ready(function () {
+			// None of the options are set
+			$("div#makeMeScrollable").smoothDivScroll({
+				autoScrollingMode: "onStart"
+			});
+		});
+	</script>															
 
 	<!--<script type="text/javascript" src="js/fixed_block.js"></script>-->
 	<script type="text/javascript" src="js/select_photo.js"></script>					
