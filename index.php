@@ -3,7 +3,7 @@
 	<head>
 		<title>Lazytour</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="Stylesheet" type="text/css" href="css/smoothDivScroll.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>			
 	</head>
