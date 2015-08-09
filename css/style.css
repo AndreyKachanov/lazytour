@@ -531,7 +531,8 @@ header .top_menu {
 	/*border: 1px solid black;*/
 	/*font: 1.5em "Myriad Pro", Verdana, sans-serif;*/
 	background: #ffffff;
-	padding-top: 70px;	
+	padding-top: 70px;
+	box-shadow: 0 6px 4px -4px #e3e3e3;	
 }
 
 #leave_application a {
@@ -821,10 +822,9 @@ a.morelink {
 }
 
 /*каруселище*/
-
 #makeMeScrollable {
 	width:100%;
-	height: 100px;
+	height: 70px;
 	position: relative;
 }
 
@@ -841,13 +841,6 @@ a.morelink {
 	-moz-transition-duration: 550ms;
 	}
 
-#makeMeScrollable a {
-	position: relative;
-	float: left;
-	margin-right: 10px;
-	padding: 0;
-}
-
 #makeMeScrollable div.scrollableArea img:hover {
 	-webkit-transform: scale(1.4,1.4);
     -webkit-transition-timing-function: ease-out;
@@ -855,4 +848,36 @@ a.morelink {
     -moz-transform: scale(1.2,1.2);
     -moz-transition-timing-function: ease-out;
     -moz-transition-duration: 550ms;
+}
+
+#makeMeScrollable a {
+	display: block;
+	position: relative;
+	float: left;
+	margin-right: 12px;
+	padding: 0;
+}
+
+.scrollableArea a  span {
+	display: block;
+	position: absolute;
+	text-decoration: underline;
+	color: #fafafa;
+	opacity: 0;
+	font: 1.5em "Myriad Pro", Verdana, sans-serif;
+}
+
+/* все ссылки, в который class="flag*" */
+a[class*="flag"]:hover span {
+	color: #27a9e1;
+	opacity: 1;
+	z-index: 9999999;	
+} 
+
+/*зигзаг под каруселью флагов*/
+.zigzaz {
+	margin: 23px 0 36px 0;
+	width: 100%;
+	height: 6px;
+	    background: url(../img/date_bg.png) repeat-x 50%;
 }

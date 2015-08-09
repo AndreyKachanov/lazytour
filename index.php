@@ -184,7 +184,7 @@
 				<div class="colored_line clear"></div>
 				<div id="leave_application">
 					<div class="footer_left">
-						<p> &copy; 2013 <a href=""> Lazytour</a></p>
+						<p> &copy; 2015 <a href=""> Lazytour</a></p>
 						<p class="copyright">Самый лучший способ найти тур или попутчика. А кроме этого обеспечить туристическому агенству, стабильный и огромный поток клиентов.</p>
 							<a href="">
 								<img src="img/tur_agenstvam.png" alt="">
@@ -209,48 +209,89 @@
 				<div id="carousel">
 					<h1>Куда едем?</h1>
 						<div id="makeMeScrollable">
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Abkhazia.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Afghanistan.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Aland.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Albania.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Algeria.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/American-Samoa.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Andorra.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Angola.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Anguilla.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Antarctica.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Antigua-and-Barbuda.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Argentina.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Armenia.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Aruba.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Australia.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Austria.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Azerbaijan.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Bahamas.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Bahrain.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Bangladesh.png" alt="Абхазия" /></a>														
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Abkhazia.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Afghanistan.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Aland.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Albania.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Algeria.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/American-Samoa.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Andorra.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Angola.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Anguilla.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Antarctica.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Antigua-and-Barbuda.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Argentina.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Armenia.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Aruba.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Australia.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Austria.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Azerbaijan.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Bahamas.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Bahrain.png" alt="Абхазия" /></a>
-							<a target="_blank" href="http://www.yandex.ru"><img src="img/flags/Bangladesh.png" alt="Абхазия" /></a>	
+							<a class="flag1" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Abkhazia.png" alt="Абхазия" />
+								<span>Абхазия</span>
+							</a>
+							<a class="flag2" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Afghanistan.png" alt="Абхазия" />
+								<span>Афганистан</span>
+							</a>
+							<a class="flag3" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Aland.png" alt="Абхазия" />
+								<span>Аланд</span>
+							</a>
+							<a class="flag4" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Albania.png" alt="Абхазия" />
+								<span>Албания</span>
+							</a>
+							<a class="flag5" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Algeria.png" alt="Абхазия" />
+								<span>Алжир</span>
+							</a>
+							<a class="flag6" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/American-Samoa.png" alt="Абхазия" />
+								<span>Америка_Самоа</span>
+							</a>
+							<a class="flag7" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Andorra.png" alt="Абхазия" />
+								<span>Андорра</span>
+							</a>
+							<a class="flag8" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Angola.png" alt="Абхазия" />
+								<span>Ангола</span>
+							</a>
+							<a class="flag9" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Anguilla.png" alt="Абхазия" />
+								<span>Ангуила</span>
+							</a>
+							<a class="flag10" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Antarctica.png" alt="Абхазия" />
+								<span>Антарктика</span>
+							</a>
+							<a class="flag11" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Antigua-and-Barbuda.png" alt="Абхазия" />
+								<span>Антика_и_Барбуда</span>
+							</a>
+							<a class="flag12" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Argentina.png" alt="Абхазия" />
+								<span>Аргентина</span>
+							</a>
+							<a class="flag13" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Armenia.png" alt="Абхазия" />
+								<span>Армения</span>
+							</a>
+							<a class="flag14" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Aruba.png" alt="Абхазия" />
+								<span>Аруба</span>
+							</a>
+							<a class="flag15" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Australia.png" alt="Абхазия" />
+								<span>Австралия</span>
+							</a>
+							<a class="flag16" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Austria.png" alt="Абхазия" />
+								<span>Австрия</span>
+							</a>
+							<a class="flag17" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Azerbaijan.png" alt="Абхазия" />
+								<span>Азербайджан</span>
+							</a>
+							<a class="flag18" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Bahamas.png" alt="Абхазия" />
+								<span>Багамы</span>
+							</a>
+							<a class="flag19" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Bahrain.png" alt="Абхазия" />
+								<span>Бахреин</span>
+							</a>
+							<a class="flag20" target="_blank" href="http://www.yandex.ru">
+								<img src="img/flags/Bangladesh.png" alt="Абхазия" />
+								<span>Бангладеш</span>
+							</a>																				
 						</div>
 				</div>
+				<div class="zigzaz"></div>
 				<div id="about_company">
 					<h1>Мы ищем — вы отдыхаете!</h1>
 					<p>Наша Туристическая компания Lazytour, уже более 10 лет 
@@ -284,7 +325,7 @@
 				</div>
 			<footer>
 				<ul>
-					<li><span>&copy; 2013 </span><a href=""> Lazytour</a></li>
+					<li><span>&copy; 2015 </span><a href=""> Lazytour</a></li>
 					<li><a href="">О компании</a></li>
 					<li><a href="">Как это работает</a></li>
 					<li><a href="">Отзывы</a></li> 
