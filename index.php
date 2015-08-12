@@ -39,7 +39,7 @@
 					</div>
 					<div class="left_shadow"></div>
 					<div class="absolute"></div>
-					<button type="button" name="" value="" class="button_claim">Оставить заявку</button>
+					<button type="button" value="" class="button_claim">Оставить заявку</button>
 				</div>
 			</header>
 			<div id="page_info">	
@@ -158,7 +158,7 @@
 
 					<div class="stickem" id="feedback_form">
 
-						<form action="#" method="POST" name="">
+						<form action="#" method="POST" name="form">
 
 							<h2>Оставить комментирий</h2>
 							<div class="email">
@@ -167,7 +167,7 @@
 								<label for="check2">Имя</label>
 								<input type="text" name="name" id="check2" placeholder="Ваше имя">														
 								<div class="customfile-container">
-								<label for="check3">Фото </label>
+								<label for="check3">Фото</label>
 								<input type="file" id="file" name="myfiles[]">
 							</div>
 							</div>
@@ -194,7 +194,7 @@
 					<div class="footer_right">
 						<p>Отдых еще не начался, а вы уже устали от поиска его места?</p>
 						<p>Оставьте заявку и тур. агентства сами будут присылать вам свои предложения.</p>
-						<button type="button" name="" value="" class="">Оставить заявку</button>
+						<button type="button"  value="" class="">Оставить заявку</button>
 					</div>
 					<div class="footer_center">
 						<ul>
@@ -341,22 +341,9 @@
 			</footer>	
 		</div>
 	<script src="js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
-	
-	<!-- Latest version (3.1.4) of jQuery Mouse Wheel by Brandon Aaron
-	     You will find it here: https://github.com/brandonaaron/jquery-mousewheel -->
 	<script src="js/jquery.mousewheel.min.js" type="text/javascript"></script>
-
-	<!-- jQuery Kinectic (1.8.2) used for touch scrolling -->
-	<!-- https://github.com/davetayls/jquery.kinetic/ -->
 	<script src="js/jquery.kinetic.min.js" type="text/javascript"></script>
-
-	<!-- Smooth Div Scroll 1.3 minified-->
 	<script src="js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
-
-	<!-- If you want to look at the uncompressed version you find it at
-	     js/jquery.smoothDivScroll-1.3.js -->
-
-	<!-- Plugin initialization -->
 	<script type="text/javascript">
 		// Initialize the plugin with no custom options
 		$(document).ready(function () {
@@ -366,8 +353,6 @@
 			});
 		});
 	</script>															
-
-	<!--<script type="text/javascript" src="js/fixed_block.js"></script>-->
 	<script type="text/javascript" src="js/select_photo.js"></script>					
 	<script type="text/javascript" src="js/hide_comments.js"></script>
 	<script type="text/javascript" src="js/jquery.stickem.js"></script>

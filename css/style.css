@@ -188,13 +188,9 @@ header .top_menu {
 	background: linear-gradient(to bottom,  #ed58a2 0%,#e7348c 40%,#dd3186 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed58a2', endColorstr='#dd3186',GradientType=0 ); /* IE6-9 */
 	padding: 8px 15px; 
-	-webkit-border-radius: 4px; 
-	-moz-border-radius: 4px; 
 	border-radius: 4px; 
-	-webkit-box-shadow: 0px 2px 4px #666666;
-  	-moz-box-shadow: 0px 2px 4px #666666;
   	box-shadow: 0px 2px 4px #666666;
-	text-shadow: #b15d87 0 -1px 0; 
+	text-shadow: 0 -1px 0 #b15d87; 
 	color: #fff;
 	font: bold 1.3em Arial, sans-serif;
 	letter-spacing: 0.7px; 	
@@ -205,7 +201,6 @@ header .top_menu {
 /*начало блока Люди*/
 #page_info {
 	height: 123px;
-	/*border: 1px solid red;*/
 	position: relative;
 }
 
